@@ -1,0 +1,146 @@
+body
+{
+	background-color: mediumpurple;
+	text-align: center;
+}
+h1
+{
+	color: skyblue;
+	font-family: verdana;
+	font-size: 2em;
+}
+div
+{
+	border: 2px solid lightblue;
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 26px;
+	padding: 15px 32px;
+}
+button
+{
+	width: 300px;
+	border: 2px solid black;
+	border-radius: 26px;
+	background-color: hotpink;
+	height: 60px;
+	margin-top: 5px;
+	box-shadow: 25px;
+
+	
+}
+
+button:hover {
+	background-color: black;
+	color: hotpink;
+	border: 2px solid white;
+	transform: rotate(5deg);
+	cursor: pointer;
+}
+
+.b1
+{
+background-color: black;
+	text-align: center;
+}
+
+.dv
+{
+	border: 2px solid darkred;
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 26px;
+	padding: 15px 32px;
+}
+
+.pswd
+{
+	border: 2px solid whitesmoke;
+	border-radius: 26px;
+	width: 50%;
+	margin-bottom: 30px;
+	color: whitesmoke;
+	background-color: black;
+
+
+}
+.p
+{
+	color: red;
+	font-family: verdana;
+	font-size: 2em;
+}
+
+.btt1
+{
+	width: 300px;
+	border: 2px solid red;
+	border-radius: 26px;
+	background-color: red;
+	height: 60px;
+	margin-top: 5px;
+	box-shadow: 25px;
+}
+
+.btt1:hover {
+	background-color: black;
+	color: red;
+	border: 2px solid white;
+	transform: rotate(5deg);
+	cursor: pointer;
+}
+
+.b2
+{
+background-color: black;
+	text-align: center;
+}
+
+.dv2
+{
+	border: 2px solid deepskyblue;
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 26px;
+	padding: 15px 32px;
+}
+
+.T2
+{
+	border: 2px solid whitesmoke;
+	border-radius: 26px;
+	width: 50%;
+	margin-bottom: 30px;
+	background-color: black;
+	color: whitesmoke;
+
+
+}
+.p2
+{
+	color: deepskyblue;
+	font-family: verdana;
+	font-size: 2em;
+}
+
+.btt2
+{
+	width: 300px;
+	border: 2px solid deepskyblue;
+	border-radius: 26px;
+	background-color: deepskyblue;
+	height: 60px;
+	margin-top: 5px;
+	box-shadow: 25px;
+}
+
+.btt2:hover {
+	background-color: black;
+	color: deepskyblue;
+	border: 2px solid white;
+	transform: rotate(5deg);
+	cursor: pointer;
+}

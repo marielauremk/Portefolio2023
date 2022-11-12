@@ -1,0 +1,49 @@
+body
+{
+	background: darkgray;
+}
+
+.g
+{
+	border: 5px solid red;
+	border-radius: 20px;
+	width: auto;
+	margin-left: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+.cd
+{
+	
+	float: right;
+	width: 70%;
+	margin-left: 40px;
+	margin-top: 75px;
+	padding-bottom: 10px;
+	
+}
+.bb
+{
+	
+	margin-left: 70px;
+	padding left:  70px ;
+	padding-bottom: 50px;
+	float: right;
+	margin-right: 30px;
+	margin-top: 50px;
+}
+.cg 
+{
+	border: 2px solid blue;
+	border-radius: 20px;
+	padding-left: 20px;
+	width: auto;
+	padding-bottom: 20px;
+
+	
+}
+
+

@@ -1,0 +1,26 @@
+marquee
+{
+	size: 200px;
+}
+
+body
+{
+	background-image: url("fdacceuil.jpg");
+	color: whitesmoke;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+h1
+{
+	color: #bc9be9;
+	font-size: 160px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+marquee
+{
+	font-size: 20px;
+}
+

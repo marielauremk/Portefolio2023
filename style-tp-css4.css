@@ -1,0 +1,31 @@
+body 
+{
+	background-color: darkred;
+	text-align: center;
+
+}
+div 
+{
+	height: 300px;
+	width: 175px;
+	border: 2px solid black;
+	float: left;
+	margin-right: 20px;
+}
+.c1 
+{
+	background-color: darkblue;
+}
+.c2 
+{
+	background-color: lightblue;
+}
+.c3
+{
+	background-color: skyblue;
+}
+.c4
+{
+	background-color: blue;
+	clear: both;
+}

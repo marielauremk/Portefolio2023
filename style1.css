@@ -1,0 +1,40 @@
+body
+{
+	background-color: Red;
+}
+
+h1
+{
+	color:  Blue;
+}
+.p1
+{
+	color: black;
+}
+.cadre1
+{
+	background-color: navy;
+	border: 4px solid #E5F30B;
+	text-align: center;
+	width: 60%;
+	height: 150px;
+}
+
+
+h2,
+{
+	color: White;
+}
+.p2 
+{
+	color: #8318D6;
+}
+.cadre2
+{
+	background-color: Green;
+	border: 4px solid #E5F30B;
+	text-align: center;
+	width: 60%;
+	height: 150px;
+}
+

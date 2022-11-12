@@ -1,0 +1,54 @@
+body 
+{
+	background: darkred;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.c1
+{
+	height: 50px;
+	width: 200px;
+	border: 3px solid black;
+	float: left;
+	margin-right: 40px;
+	border-radius: 10px;
+	background: darkslateblue;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.c2
+{
+	height: 300px;
+	width: 200px;
+	border: 5px solid silver;
+	float: left;
+	margin-right: 60px;
+	margin-left: 30px;
+	border-radius: 10px;
+	margin-bottom: 50px;
+	margin-top: 20px;
+	background: gold;
+	text-align: center;
+}
+
+.c3
+{
+	clear: both;
+	margin-top: 300px;
+	text-align: center;
+	background: silver;
+	
+}
+
+.c4
+{
+	clear: both;
+	background: silver;
+	
+	
+}
+
