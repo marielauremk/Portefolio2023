@@ -1,0 +1,83 @@
+/* on definit la taille de la div du menu ainsi que la taille de parties du menu */
+div#menu 
+{
+	width: 100px;
+}
+
+/* on positionne les elements du menu */
+div#menu ul 
+{
+	padding: 0;
+	width: 100px;
+	border: 1px solid;
+	margin: 0px;
+}
+
+/* on positionne les elements du menu */
+div#menu ul li
+{
+	position: relative; /* pour decaler les sous-menu */
+	list-style: none; /* on enleve les icones de liste */
+	border-bottom: 1px solid; /*ajout d'une bordure de separation d'elements */
+
+}
+
+div#menu ul ul 
+{
+	position: absolute;
+	top: 0;
+	left: 100px; /*100px correspond au decalage a droite, on decale de la taille du ul de base */	
+
+}
+
+div#menu li a 
+{
+	text-decoration: none; /* plus de soulignement pour les liens */
+
+}
+
+/*puis on cache tous les sous menu avec la propriété display:none */
+
+div#menu ul ul 
+{
+	position: absolute;
+	top: O;
+	left: 100px;
+	display: none;
+}
+
+/* lors du survol avec la souris, on fait apparaitre les sousmenu grace a la proprieté display:block */
+div#menu ul.niveau1 li.sousmenu:hover ul.niveau2,
+div#menu ul.niveau2 li.sousmenu:hover ul.niveau3 {display: block} 
+
+/* couleur du texte */
+div#menu a 
+{ 
+	color:gold;
+	font-size: 25px;
+
+}
+
+
+/*fond different au survol de la souris entre les sous menu et les "basiques" */
+div#menu li.sousmenu:hover {background: grey;}
+
+/*on rajoute une bordure a gauche et des padding, on doit donc réajuster la taille 100-(8 de bordure =8 de padding) =84 */
+div#menu li a 
+{
+	text-decoration: none;
+	padding: 4px 0 4px 8px;
+	display: block; 
+	border-left: 8px solid #BBB;
+	width: 84px;
+}
+
+/* la bordure de chaque hauteur 	a une couleur de survol*/
+div#menu li a:hover { border-left-color:red;}
+div#menu ul ul li a:hover {border-left-color: pink;}
+div#menu ul ul ul li a:hover { border-left-color: green }
+
+body
+{
+	background: lightcyan;
+}
