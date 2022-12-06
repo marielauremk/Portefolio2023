@@ -87,7 +87,7 @@ function switch2() /* switch = selon */
 
 function bonus()
 {  var totalfin = 0
-    do 
+     
     
     var saisir = prompt("saisir un article");
     var quantite = prompt("saisir la quantite");
@@ -99,7 +99,6 @@ function bonus()
 
     document.write("Donner le prix      ");
 
-    while 
-    if
+  
 
 }
