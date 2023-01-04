@@ -132,6 +132,10 @@ nav li:hover .submenu{
     background-color: rgb(170, 10, 10);
 
 }
+.menu-contact:hover{
+    border-top: 5px solid rgb(43, 40, 40);
+    background-color: rgb(170, 10, 10);
+}
 
 nav > ul > li:hover a {
     padding: 15px 30px 20px 30px;
@@ -180,10 +184,7 @@ background-color: rgb(232, 223, 223);
    
  }
 
-.menu-contact:hover{
-    border-top: 5px solid rgb(43, 40, 40);
-    background-color: rgb(170, 10, 10);
-}
+
 
  /* lorsque la case est cochée (dès q'un utilisateur appuie sur notre bouton),
  le menu entier s'affiche*/
