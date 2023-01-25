@@ -1,0 +1,28 @@
+body 
+{
+	color: white;
+	text-align: center;
+ background-color: rgb(13, 46, 178);
+ font-size: larger;
+
+}
+
+button
+{
+	border-radius: 25px;
+	width: 250px;
+	height: 75px;
+	background: red;
+	color: white;
+	margin-right: 5px;
+	margin-bottom: 5px;
+    text-align: center;
+    font-size: large;
+
+}
+
+button:hover
+{
+	background: blue;
+	color: black;
+}
