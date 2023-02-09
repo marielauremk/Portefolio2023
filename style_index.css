@@ -1,0 +1,14 @@
+body
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+button
+{
+    color: pink;
+    background-color: red;
+    width: 200px;
+    height: 100px;
+}
