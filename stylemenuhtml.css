@@ -137,7 +137,7 @@ nav li:hover .submenu{
     background-color: rgb(170, 10, 10);
 
 }
-.menu-PHP:hover{
+.menu-php:hover{
     border-top: 5px solid rgb(43, 40, 40);
     background-color: rgb(170, 10, 10);
 
@@ -165,9 +165,10 @@ background-color: rgb(232, 223, 223);
 .menu-conception .submenu{
     background-color:rgb(232, 223, 223);
 }
-.menu-PHP.submenu{
+.menu-php .submenu{
     background-color:rgb(232, 223, 223);
 }
+
 .submenu li:hover a{
     color:red;
     font-weight: bold;
@@ -200,7 +201,7 @@ background-color: rgb(232, 223, 223);
 
 }
 
-.menu-PHP .submenu li:hover{
+.menu-php .submenu li:hover{
     background-color: rgb(41, 41, 45);
 
 }
