@@ -1,0 +1,35 @@
+body{
+background-color: black;
+font-family: verdana, calibri, sans-serif, Impact, Haettenschweiler,;
+text-align: center;
+color: white;
+}
+
+button 
+{
+    padding-top: 40px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    width: 300px;
+    height: 100px;
+    font-weight: bolder;
+    border: solid white;
+    margin-top: 10px;
+    font-size: xx-large;
+    text-align: center;
+    display: inline-block;
+    padding-bottom: 75px;
+}
+
+button:hover
+{
+background-color: white;
+color: grey;
+border-radius: 50%;
+width: 300px;
+height: 100px;
+font-weight: bolder;
+padding-top: 40px;
+font-size: xx-large;
+}
